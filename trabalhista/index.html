@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edson Porto Advocacia - Seus Direitos Trabalhistas Foram Violados?</title>
+    <meta name="description" content="Advogado trabalhista especialista em ações trabalhistas. Demissão sem justa causa, horas extras não pagas, assédio moral. Fale conosco pelo WhatsApp!">
+    <meta name="keywords" content="advogado trabalhista, ação trabalhista, direitos trabalhistas, demissão sem justa causa, horas extras não pagas, assédio moral trabalho, vínculo de emprego, acidente de trabalho advogado, pejotização advogado, Edson Porto Advocacia trabalhista, advogado trabalhista Porto Alegre">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-blue: #1e3a8a;
+            --secondary-blue: #3b82f6;
+            --accent-green: #10b981;
+            --accent-gold: #f59e0b;
+            --dark-gray: #374151;
+            --light-gray: #f3f4f6;
+            --white: #ffffff;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            background: var(--white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 15px 0;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-blue);
+        }
+
+        .header-cta {
+            background: var(--accent-green);
+            color: var(--white);
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .header-cta:hover {
+            background: #059669;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(16, 185, 129, 0.4);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+            color: var(--white);
+            padding: 120px 0 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="white" opacity="0.1"><polygon points="0,0 1000,0 1000,100 0,80"/></svg>') no-repeat bottom;
+            background-size: cover;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero h2 {
+            font-size: clamp(1.2rem, 3vw, 1.5rem);
+            font-weight: 400;
+            margin-bottom: 40px;
+            opacity: 0.9;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-cta {
+            background: var(--accent-green);
+            color: var(--white);
+            padding: 18px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            transition: all 0.3s ease;
+            margin-bottom: 30px;
+        }
+
+        .hero-cta:hover {
+            background: #059669;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.4);
+        }
+
+        .hero-subtitle {
+            font-size: 16px;
+            opacity: 0.8;
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 20px;
+            color: var(--primary-blue);
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 18px;
+            color: var(--text-light);
+            margin-bottom: 60px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Problems Section */
+        .problems {
+            background: var(--light-gray);
+        }
+
+        .problems-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .problem-card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border-left: 4px solid var(--accent-green);
+        }
+
+        .problem-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .problem-card i {
+            font-size: 40px;
+            color: var(--accent-green);
+            margin-bottom: 20px;
+        }
+
+        .problem-card h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--primary-blue);
+        }
+
+        .problem-card p {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* Solution Section */
+        .solution {
+            background: var(--white);
+        }
+
+        .solution-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .solution-text h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            color: var(--primary-blue);
+            margin-bottom: 20px;
+        }
+
+        .solution-text p {
+            font-size: 18px;
+            color: var(--text-light);
+            margin-bottom: 20px;
+        }
+
+        .solution-list {
+            list-style: none;
+            margin: 30px 0;
+        }
+
+        .solution-list li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        .solution-list li i {
+            color: var(--accent-green);
+            margin-right: 15px;
+            font-size: 18px;
+        }
+
+        .solution-image {
+            text-align: center;
+        }
+
+        .solution-image i {
+            font-size: 200px;
+            color: var(--secondary-blue);
+            opacity: 0.1;
+        }
+
+        /* Process Section */
+        .process {
+            background: var(--light-gray);
+        }
+
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .process-step {
+            text-align: center;
+            position: relative;
+        }
+
+        .process-step::after {
+            content: '';
+            position: absolute;
+            top: 50px;
+            right: -15px;
+            width: 30px;
+            height: 2px;
+            background: var(--accent-green);
+            display: none;
+        }
+
+        .process-step:not(:last-child)::after {
+            display: block;
+        }
+
+        .step-number {
+            width: 80px;
+            height: 80px;
+            background: var(--accent-green);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 700;
+            margin: 0 auto 20px;
+        }
+
+        .process-step h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--primary-blue);
+        }
+
+        .process-step p {
+            color: var(--text-light);
+            font-size: 14px;
+        }
+
+        /* Differentials Section */
+        .differentials {
+            background: var(--white);
+        }
+
+        .differentials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .differential-card {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 30px;
+            background: var(--light-gray);
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .differential-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .differential-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--accent-green);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+
+        .differential-content h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--primary-blue);
+        }
+
+        .differential-content p {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* FAQ Section */
+        .faq {
+            background: var(--light-gray);
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: var(--white);
+            margin-bottom: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .faq-question {
+            padding: 25px;
+            background: var(--white);
+            border: none;
+            width: 100%;
+            text-align: left;
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--primary-blue);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: var(--light-gray);
+        }
+
+        .faq-question i {
+            transition: transform 0.3s ease;
+        }
+
+        .faq-question.active i {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            padding: 0 25px;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .faq-answer.active {
+            padding: 25px;
+            max-height: 200px;
+        }
+
+        .faq-answer p {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            background: var(--white);
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .testimonial-card {
+            background: var(--light-gray);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            position: relative;
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            font-size: 60px;
+            color: var(--accent-green);
+            font-family: 'Playfair Display', serif;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--primary-blue);
+        }
+
+        .testimonial-role {
+            font-size: 14px;
+            color: var(--text-light);
+        }
+
+        /* Final CTA Section */
+        .final-cta {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+            color: var(--white);
+            text-align: center;
+            padding: 80px 0;
+        }
+
+        .final-cta h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 4vw, 3rem);
+            margin-bottom: 20px;
+        }
+
+        .final-cta p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+
+        .final-cta-button {
+            background: var(--accent-green);
+            color: var(--white);
+            padding: 20px 50px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .final-cta-button:hover {
+            background: #059669;
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(16, 185, 129, 0.4);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--dark-gray);
+            color: var(--white);
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .footer-section h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: var(--accent-green);
+        }
+
+        .footer-section p, .footer-section a {
+            color: #d1d5db;
+            text-decoration: none;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-green);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #4b5563;
+            padding-top: 20px;
+            font-size: 14px;
+            color: #9ca3af;
+        }
+
+        /* WhatsApp Floating Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25d366;
+            color: var(--white);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            text-decoration: none;
+            box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4);
+            z-index: 1001;
+            transition: all 0.3s ease;
+            animation: pulse 2s infinite;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 30px rgba(37, 211, 102, 0.6);
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4); }
+            50% { box-shadow: 0 5px 30px rgba(37, 211, 102, 0.8); }
+            100% { box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 15px;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .hero {
+                padding: 100px 0 60px;
+            }
+
+            .section {
+                padding: 60px 0;
+            }
+
+            .solution-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .process-step::after {
+                display: none;
+            }
+
+            .differentials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .differential-card {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .whatsapp-float {
+                width: 50px;
+                height: 50px;
+                font-size: 20px;
+            }
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .slide-in-left {
+            opacity: 0;
+            transform: translateX(-50px);
+            transition: all 0.6s ease;
+        }
+
+        .slide-in-left.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .slide-in-right {
+            opacity: 0;
+            transform: translateX(50px);
+            transition: all 0.6s ease;
+        }
+
+        .slide-in-right.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Edson Porto Advocacia</div>
+                <a href="https://wa.me/5551993615313?text=Olá,%20visitei%20a%20página%20da%20Edson%20Porto%20Advocacia%20sobre%20direitos%20trabalhistas%20e%20gostaria%20de%20uma%20análise%20do%20meu%20caso." class="header-cta">
+                    <i class="fab fa-whatsapp"></i>
+                    Fale Conosco
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1>Seus Direitos Trabalhistas Foram Violados?</h1>
+                <h2>Não Deixe Ninguém Tirar o Que é Seu! Busque a Justiça Agora!</h2>
+                <a href="https://wa.me/5551993615313?text=Olá,%20visitei%20a%20página%20da%20Edson%20Porto%20Advocacia%20sobre%20direitos%20trabalhistas%20e%20gostaria%20de%20uma%20análise%20do%20meu%20caso." class="hero-cta">
+                    <i class="fab fa-whatsapp"></i>
+                    ANÁLISE GRATUITA PELO WHATSAPP
+                </a>
+                <p class="hero-subtitle">A Edson Porto Advocacia é especialista em ações trabalhistas para garantir que você receba todos os seus direitos. Fale conosco e resolva seu problema sem burocracia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems Section -->
+    <section class="section problems">
+        <div class="container">
+            <h2 class="section-title fade-in">O Que Você Está Enfrentando?</h2>
+            <p class="section-subtitle fade-in">Reconhecemos sua dor e sabemos como é difícil lidar com a violação dos seus direitos trabalhistas</p>
+            
+            <div class="problems-grid">
+                <div class="problem-card fade-in">
+                    <i class="fas fa-user-times"></i>
+                    <h3>Demissão Injusta?</h3>
+                    <p>Não pagaram suas verbas rescisórias corretamente? Você tem direito a receber tudo o que é seu por lei.</p>
+                </div>
+                
+                <div class="problem-card fade-in">
+                    <i class="fas fa-clock"></i>
+                    <h3>Horas Extras Não Pagas?</h3>
+                    <p>Você trabalha além do horário e não recebe por isso? Suas horas extras devem ser devidamente remuneradas.</p>
+                </div>
+                
+                <div class="problem-card fade-in">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Assédio ou Discriminação?</h3>
+                    <p>Sofre humilhação, perseguição ou tratamento desigual no trabalho? Isso é inaceitável e você pode ser indenizado.</p>
+                </div>
+                
+                <div class="problem-card fade-in">
+                    <i class="fas fa-id-card"></i>
+                    <h3>Trabalha sem Carteira Assinada?</h3>
+                    <p>Não tem seus direitos básicos garantidos? O vínculo de emprego deve ser reconhecido pela justiça.</p>
+                </div>
+                
+                <div class="problem-card fade-in">
+                    <i class="fas fa-ambulance"></i>
+                    <h3>Acidente ou Doença no Trabalho?</h3>
+                    <p>Sofrimento e desamparo após um problema de saúde relacionado ao trabalho? Você tem direito à assistência e indenização.</p>
+                </div>
+                
+                <div class="problem-card fade-in">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h3>Salário Atrasado?</h3>
+                    <p>Férias ou 13º não pagos? Atraso de salário é uma violação grave dos seus direitos trabalhistas.</p>
+                </div>
+                
+                <div class="problem-card fade-in">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>PJ Fraudulenta?</h3>
+                    <p>Obrigações como PJ sem direitos CLT? Sua "pejotização" pode ser uma fraude e você tem direitos a reclamar.</p>
+                </div>
+                
+                <div class="problem-card fade-in">
+                    <i class="fas fa-heart-broken"></i>
+                    <h3>Sensação de Injustiça?</h3>
+                    <p>O estresse financeiro e a dificuldade em saber o que fazer podem acabar agora. Você não está sozinho!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="section solution">
+        <div class="container">
+            <h2 class="section-title fade-in">Seus Direitos Devem Ser Respeitados!</h2>
+            <div class="solution-content">
+                <div class="solution-text slide-in-left">
+                    <h3>Você tem direitos garantidos por lei! Nosso papel é lutar por eles.</h3>
+                    <p>Não importa a gravidade da situação, a justiça pode ser feita. Nossa experiência e dedicação estão ao seu lado para garantir que você receba tudo o que é seu por direito.</p>
+                    
+                    <ul class="solution-list">
+                        <li><i class="fas fa-check-circle"></i> Verbas Rescisórias (saldo de salário, aviso prévio, 13º, férias, FGTS + 40%, seguro-desemprego)</li>
+                        <li><i class="fas fa-check-circle"></i> Horas Extras e Adicional Noturno</li>
+                        <li><i class="fas fa-check-circle"></i> Indenizações por Assédio e Discriminação</li>
+                        <li><i class="fas fa-check-circle"></i> Reconhecimento de Vínculo de Emprego</li>
+                        <li><i class="fas fa-check-circle"></i> Indenizações por Acidente e Doença Ocupacional</li>
+                        <li><i class="fas fa-check-circle"></i> Equiparação Salarial e Desvio de Função</li>
+                        <li><i class="fas fa-check-circle"></i> E muito mais!</li>
+                    </ul>
+                    
+                    <a href="https://wa.me/5551993615313?text=Olá,%20visitei%20a%20página%20da%20Edson%20Porto%20Advocacia%20sobre%20direitos%20trabalhistas%20e%20gostaria%20de%20uma%20análise%20do%20meu%20caso." class="hero-cta">
+                        <i class="fab fa-whatsapp"></i>
+                        QUERO MEUS DIREITOS AGORA
+                    </a>
+                </div>
+                <div class="solution-image slide-in-right">
+                    <i class="fas fa-balance-scale"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section process">
+        <div class="container">
+            <h2 class="section-title fade-in">Como a Edson Porto Advocacia Pode Ajudar Você</h2>
+            <p class="section-subtitle fade-in">Processo rápido e descomplicado para garantir seus direitos</p>
+            
+            <div class="process-steps">
+                <div class="process-step fade-in">
+                    <div class="step-number">1</div>
+                    <h3>Fale Conosco no WhatsApp</h3>
+                    <p>Análise Gratuita! O contato mais rápido e direto para começar.</p>
+                </div>
+                
+                <div class="process-step fade-in">
+                    <div class="step-number">2</div>
+                    <h3>Análise do Seu Caso</h3>
+                    <p>Avaliação detalhada da sua situação e dos documentos necessários.</p>
+                </div>
+                
+                <div class="process-step fade-in">
+                    <div class="step-number">3</div>
+                    <h3>Ingresso da Ação Trabalhista</h3>
+                    <p>Preparação e entrada com o processo judicial de forma estratégica.</p>
+                </div>
+                
+                <div class="process-step fade-in">
+                    <div class="step-number">4</div>
+                    <h3>Acompanhamento Total</h3>
+                    <p>Mantenha-se informado sobre cada etapa da sua ação trabalhista.</p>
+                </div>
+                
+                <div class="process-step fade-in">
+                    <div class="step-number">5</div>
+                    <h3>Receba Seus Direitos</h3>
+                    <p>Luta incansável pela sua vitória e sua indenização justa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Differentials Section -->
+    <section class="section differentials">
+        <div class="container">
+            <h2 class="section-title fade-in">Por que Escolher a Edson Porto Advocacia?</h2>
+            <p class="section-subtitle fade-in">Nossos diferenciais que fazem a diferença na sua vitória</p>
+            
+            <div class="differentials-grid">
+                <div class="differential-card fade-in">
+                    <div class="differential-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <div class="differential-content">
+                        <h3>Especialização em Direito do Trabalho</h3>
+                        <p>Foco exclusivo e profundo conhecimento na área trabalhista, garantindo a melhor estratégia para seu caso.</p>
+                    </div>
+                </div>
+                
+                <div class="differential-card fade-in">
+                    <div class="differential-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="differential-content">
+                        <h3>Atendimento Rápido via WhatsApp</h3>
+                        <p>Agilidade na comunicação para sua conveniência. Resposta rápida e atendimento humanizado.</p>
+                    </div>
+                </div>
+                
+                <div class="differential-card fade-in">
+                    <div class="differential-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="differential-content">
+                        <h3>Experiência Comprovada</h3>
+                        <p>Histórico de sucesso na defesa de trabalhadores, com resultados expressivos em ações trabalhistas.</p>
+                    </div>
+                </div>
+                
+                <div class="differential-card fade-in">
+                    <div class="differential-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <div class="differential-content">
+                        <h3>Atendimento Personalizado</h3>
+                        <p>Cada caso é único e tratado com a atenção que merece. Você não é apenas um número para nós.</p>
+                    </div>
+                </div>
+                
+                <div class="differential-card fade-in">
+                    <div class="differential-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="differential-content">
+                        <h3>Transparência Total</h3>
+                        <p>Honorários claros e transparentes, frequentemente focados no êxito da ação. Sem surpresas.</p>
+                    </div>
+                </div>
+                
+                <div class="differential-card fade-in">
+                    <div class="differential-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="differential-content">
+                        <h3>Compromisso com a Justiça</h3>
+                        <p>Nosso objetivo é garantir que você receba o que é seu por direito. Sua vitória é nossa missão.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq">
+        <div class="container">
+            <h2 class="section-title fade-in">Perguntas Frequentes</h2>
+            <p class="section-subtitle fade-in">Esclarecemos suas principais dúvidas sobre ações trabalhistas</p>
+            
+            <div class="faq-container">
+                <div class="faq-item fade-in">
+                    <button class="faq-question">
+                        Corro o risco de ser demitido se entrar com o processo?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Não! A lei protege o trabalhador contra retaliações. Se você for demitido por entrar com ação trabalhista, isso configura dispensa discriminatória, gerando direito a indenização adicional e reintegração ao emprego.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item fade-in">
+                    <button class="faq-question">
+                        Quais documentos preciso para iniciar a ação?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Geralmente precisamos de: carteira de trabalho, contratos, holerites, comprovantes de pagamento, e-mails, mensagens, fotos, testemunhas. Mas não se preocupe, orientamos você sobre todos os documentos necessários para seu caso específico.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item fade-in">
+                    <button class="faq-question">
+                        Quanto tempo leva um processo trabalhista?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O tempo varia conforme a complexidade do caso, mas geralmente entre 6 meses a 2 anos. Muitos casos são resolvidos em audiência de conciliação. Trabalhamos para acelerar o processo e buscar acordos vantajosos quando possível.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item fade-in">
+                    <button class="faq-question">
+                        Como são cobrados os honorários do advogado?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Trabalhamos principalmente com honorários de êxito, ou seja, você só paga se ganhar a ação. O percentual é acordado previamente e de forma transparente. Em alguns casos, pode haver uma taxa inicial mínima. Tudo é esclarecido antes de iniciarmos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+        <div class="container">
+            <h2 class="section-title fade-in">O Que Nossos Clientes Dizem</h2>
+            <p class="section-subtitle fade-in">Depoimentos reais de quem conquistou seus direitos conosco</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-text">Estava desesperada após ser demitida sem receber minhas verbas. O Dr. Edson Porto me atendeu pelo WhatsApp no mesmo dia e em 8 meses consegui tudo que era meu por direito. Profissional excepcional!</p>
+                    <div class="testimonial-author">Maria S.</div>
+                    <div class="testimonial-role">Ex-funcionária de empresa de logística</div>
+                </div>
+                
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-text">Trabalhei 3 anos como PJ mas na verdade era CLT. Graças à Edson Porto Advocacia, consegui o reconhecimento do vínculo e recebi todos os direitos trabalhistas. Recomendo de olhos fechados!</p>
+                    <div class="testimonial-author">João P.</div>
+                    <div class="testimonial-role">Consultor de vendas</div>
+                </div>
+                
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-text">Sofria assédio moral diariamente no trabalho. O escritório me deu todo o suporte necessário e conseguimos uma indenização justa. Finalmente pude recuperar minha dignidade e estabilidade financeira.</p>
+                    <div class="testimonial-author">Ana L.</div>
+                    <div class="testimonial-role">Assistente administrativa</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta">
+        <div class="container">
+            <h2 class="fade-in">Não Espere Mais! Seus Direitos Não Podem Esperar!</h2>
+            <p class="fade-in">Cada dia que passa é um dia a menos para buscar a justiça que você merece. Fale conosco agora mesmo!</p>
+            <a href="https://wa.me/5551993615313?text=Olá,%20visitei%20a%20página%20da%20Edson%20Porto%20Advocacia%20sobre%20direitos%20trabalhistas%20e%20gostaria%20de%20uma%20análise%20do%20meu%20caso." class="final-cta-button fade-in">
+                <i class="fab fa-whatsapp"></i>
+                FALE COM UM ADVOGADO TRABALHISTA AGORA!
+            </a>
+            <p class="fade-in" style="margin-top: 20px; font-size: 16px;">Sua justiça está a um clique. Receba a orientação que você precisa!</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Edson Porto Advocacia</h3>
+                    <p>Especialistas em Direito do Trabalho</p>
+                    <p>Defendendo seus direitos com dedicação e expertise</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p><i class="fab fa-whatsapp"></i> (51) 99361-5313</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Porto Alegre/RS</p>
+                    <p><i class="fas fa-envelope"></i> contato@edsonportoadvocacia.com.br</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Áreas de Atuação</h3>
+                    <p>Ações Trabalhistas</p>
+                    <p>Direitos do Trabalhador</p>
+                    <p>Indenizações Trabalhistas</p>
+                    <p>Rescisões Contratuais</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Edson Porto Advocacia. Todos os direitos reservados. | <a href="#" style="color: #9ca3af;">Política de Privacidade</a> | <a href="#" style="color: #9ca3af;">Termos de Uso</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5551993615313?text=Olá,%20visitei%20a%20página%20da%20Edson%20Porto%20Advocacia%20sobre%20direitos%20trabalhistas%20e%20gostaria%20de%20uma%20análise%20do%20meu%20caso." class="whatsapp-float" title="Fale conosco pelo WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const isActive = question.classList.contains('active');
+                
+                // Close all other FAQ items
+                document.querySelectorAll('.faq-question').forEach(q => {
+                    q.classList.remove('active');
+                    q.nextElementSibling.classList.remove('active');
+                });
+                
+                // Toggle current item
+                if (!isActive) {
+                    question.classList.add('active');
+                    answer.classList.add('active');
+                }
+            });
+        });
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all elements with animation classes
+        document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(255, 255, 255, 0.95)';
+                header.style.backdropFilter = 'blur(10px)';
+            } else {
+                header.style.background = 'var(--white)';
+                header.style.backdropFilter = 'none';
+            }
+        });
+
+        // Add loading animation
+        window.addEventListener('load', () => {
+            document.body.style.opacity = '1';
+        });
+
+        // Preload critical resources
+        const preloadLink = document.createElement('link');
+        preloadLink.rel = 'preload';
+        preloadLink.href = 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap';
+        preloadLink.as = 'style';
+        document.head.appendChild(preloadLink);
+    </script>
+</body>
+</html>
+
