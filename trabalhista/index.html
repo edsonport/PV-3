@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Edson Porto Advocacia - Especialista em Direito Trabalhista. Defenda seus direitos com expertise comprovada.">
+    <meta name="keywords" content="direito trabalhista, ação trabalhista, advogado trabalhista, demissão injusta, horas extras">
+    <title>Direito Trabalhista | Edson Porto Braz Advocacia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="logo-whatsapp.webp" alt="Edson Porto Advocacia" class="logo">
+                <div class="logo-text">
+                    <span class="logo-name">EDSON PORTO</span>
+                    <span class="logo-subtitle">ADVOCACIA</span>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="#expertise" class="nav-link">Expertise</a>
+                <a href="#areas" class="nav-link">Áreas de Atuação</a>
+                <a href="#processo" class="nav-link">Processo</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contato" class="nav-link nav-contact">CONTATO</a>
+            </nav>
+            <button class="whatsapp-btn" onclick="openWhatsApp()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.255.949l-.305.149-3.159-.829.843 3.075c-.531 1.466-.357 3.073.661 4.864 1.02 1.793 2.938 2.885 4.797 2.885a5.412 5.412 0 002.946-.798l.298-.149 3.075.766-.824-3.12c.521-1.331.873-2.932.873-4.667 0-5.059-4.121-9.169-9.191-9.169z"/>
+                </svg>
+                Fale Conosco
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Seus Direitos Trabalhistas Foram Violados?</h1>
+            <p class="hero-subtitle">Não Deixe Ninguém Tirar o Que é Seu! Busque a Justiça Agora!</p>
+            <p class="hero-description">A Edson Porto Advocacia é especialista em ações trabalhistas para garantir que você receba todos os seus direitos. Fale conosco e resolva seu problema sem burocracia.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="openWhatsApp()">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.255.949l-.305.149-3.159-.829.843 3.075c-.531 1.466-.357 3.073.661 4.864 1.02 1.793 2.938 2.885 4.797 2.885a5.412 5.412 0 002.946-.798l.298-.149 3.075.766-.824-3.12c.521-1.331.873-2.932.873-4.667 0-5.059-4.121-9.169-9.191-9.169z"/>
+                    </svg>
+                    Análise Gratuita pelo WhatsApp
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- O Que Você Está Enfrentando -->
+    <section class="challenges" id="areas">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O Que Você Está Enfrentando?</h2>
+                <p class="section-subtitle">Reconhecemos sua dor e sabemos como é difícil lidar com a violação dos seus direitos trabalhistas</p>
+            </div>
+            <div class="challenges-grid">
+                <div class="challenge-card">
+                    <div class="challenge-icon">⚖️</div>
+                    <h3>Demissão Injusta?</h3>
+                    <p>Não pagaram suas verbas rescisórias corretamente? Você tem direito a receber tudo o que é seu por lei.</p>
+                </div>
+                <div class="challenge-card">
+                    <div class="challenge-icon">⏰</div>
+                    <h3>Horas Extras Não Pagas?</h3>
+                    <p>Você trabalha além do horário e não recebe por isso? Suas horas extras devem ser devidamente remuneradas.</p>
+                </div>
+                <div class="challenge-card">
+                    <div class="challenge-icon">🚫</div>
+                    <h3>Assédio ou Discriminação?</h3>
+                    <p>Sofre humilhação, perseguição ou tratamento desigual no trabalho? Isso é inaceitável e você pode ser indenizado.</p>
+                </div>
+                <div class="challenge-card">
+                    <div class="challenge-icon">📋</div>
+                    <h3>Trabalha sem Carteira Assinada?</h3>
+                    <p>Não tem seus direitos básicos garantidos? O vínculo de emprego deve ser reconhecido pela justiça.</p>
+                </div>
+                <div class="challenge-card">
+                    <div class="challenge-icon">⚠️</div>
+                    <h3>Acidente ou Doença no Trabalho?</h3>
+                    <p>Sofrimento e desamparo após um problema de saúde relacionado ao trabalho? Você tem direito à assistência e indenização.</p>
+                </div>
+                <div class="challenge-card">
+                    <div class="challenge-icon">💰</div>
+                    <h3>Salário Atrasado?</h3>
+                    <p>Férias ou 13º não pagos? Atraso de salário é uma violação grave dos seus direitos trabalhistas.</p>
+                </div>
+                <div class="challenge-card">
+                    <div class="challenge-icon">🔗</div>
+                    <h3>PJ Fraudulenta?</h3>
+                    <p>Obrigações como PJ sem direitos CLT? Sua "pejotização" pode ser uma fraude e você tem direitos a reclamar.</p>
+                </div>
+                <div class="challenge-card">
+                    <div class="challenge-icon">😔</div>
+                    <h3>Sensação de Injustiça?</h3>
+                    <p>O estresse financeiro e a dificuldade em saber o que fazer podem acabar agora. Você não está sozinho!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seus Direitos -->
+    <section class="rights" id="expertise">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Seus Direitos Devem Ser Respeitados!</h2>
+                <p class="section-subtitle">Você tem direitos garantidos por lei! Nosso papel é lutar por eles.</p>
+            </div>
+            <div class="rights-content">
+                <p class="rights-intro">Não importa a gravidade da situação, a justiça pode ser feita. Nossa experiência e dedicação estão ao seu lado para garantir que você receba tudo o que é seu por direito.</p>
+                <ul class="rights-list">
+                    <li>Verbas Rescisórias (saldo de salário, aviso prévio, 13º, férias, FGTS + 40%, seguro-desemprego)</li>
+                    <li>Horas Extras e Adicional Noturno</li>
+                    <li>Indenizações por Assédio e Discriminação</li>
+                    <li>Reconhecimento de Vínculo de Emprego</li>
+                    <li>Indenizações por Acidente e Doença Ocupacional</li>
+                    <li>Equiparação Salarial e Desvio de Função</li>
+                    <li>E muito mais!</li>
+                </ul>
+                <button class="btn btn-secondary" onclick="openWhatsApp()">Quero Meus Direitos Agora</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Processo -->
+    <section class="process" id="processo">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Como a Edson Porto Advocacia Pode Ajudar Você</h2>
+                <p class="section-subtitle">Processo rápido e descomplicado para garantir seus direitos</p>
+            </div>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Fale Conosco no WhatsApp</h3>
+                    <p>Análise Gratuita! O contato mais rápido e direto para começar.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Análise do Seu Caso</h3>
+                    <p>Avaliação detalhada da sua situação e dos documentos necessários.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Ingresso da Ação Trabalhista</h3>
+                    <p>Preparação e entrada com o processo judicial de forma estratégica.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Acompanhamento Total</h3>
+                    <p>Mantenha-se informado sobre cada etapa da sua ação trabalhista.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>Receba Seus Direitos</h3>
+                    <p>Luta incansável pela sua vitória e sua indenização justa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Por que Escolher -->
+    <section class="differentials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Por que Escolher a Edson Porto Advocacia?</h2>
+                <p class="section-subtitle">Nossos diferenciais que fazem a diferença na sua vitória</p>
+            </div>
+            <div class="differentials-grid">
+                <div class="differential-card">
+                    <h3>Especialização em Direito do Trabalho</h3>
+                    <p>Foco exclusivo e profundo conhecimento na área trabalhista, garantindo a melhor estratégia para seu caso.</p>
+                </div>
+                <div class="differential-card">
+                    <h3>Atendimento Rápido via WhatsApp</h3>
+                    <p>Agilidade na comunicação para sua conveniência. Resposta rápida e atendimento humanizado.</p>
+                </div>
+                <div class="differential-card">
+                    <h3>Experiência Comprovada</h3>
+                    <p>Histórico de sucesso na defesa de trabalhadores, com resultados expressivos em ações trabalhistas.</p>
+                </div>
+                <div class="differential-card">
+                    <h3>Atendimento Personalizado</h3>
+                    <p>Cada caso é único e tratado com a atenção que merece. Você não é apenas um número para nós.</p>
+                </div>
+                <div class="differential-card">
+                    <h3>Transparência Total</h3>
+                    <p>Honorários claros e transparentes, frequentemente focados no êxito da ação. Sem surpresas.</p>
+                </div>
+                <div class="differential-card">
+                    <h3>Compromisso com a Justiça</h3>
+                    <p>Nosso objetivo é garantir que você receba o que é seu por direito. Sua vitória é nossa missão.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                <p class="section-subtitle">Esclarecemos suas principais dúvidas sobre ações trabalhistas</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Corro o risco de ser demitido se entrar com o processo?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Não! A lei protege o trabalhador contra retaliações. Se você for demitido por entrar com ação trabalhista, isso configura dispensa discriminatória, gerando direito a indenização adicional e reintegração ao emprego.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Quais documentos preciso para iniciar a ação?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Geralmente precisamos de: carteira de trabalho, contratos, holerites, comprovantes de pagamento, e-mails, mensagens, fotos, testemunhas. Mas não se preocupe, orientamos você sobre todos os documentos necessários para seu caso específico.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Quanto tempo leva um processo trabalhista?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O tempo varia conforme a complexidade do caso, mas geralmente entre 6 meses a 2 anos. Muitos casos são resolvidos em audiência de conciliação. Trabalhamos para acelerar o processo e buscar acordos vantajosos quando possível.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Como são cobrados os honorários do advogado?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Trabalhamos principalmente com honorários de êxito, ou seja, você só paga se ganhar a ação. O percentual é acordado previamente e de forma transparente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
+                <p class="section-subtitle">Depoimentos reais de quem conquistou seus direitos conosco</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Estava desesperada após ser demitida sem receber minhas verbas. O Dr. Edson Porto me atendeu pelo WhatsApp no mesmo dia e em 8 meses consegui tudo que era meu por direito. Profissional excepcional!"</p>
+                    <p class="testimonial-author">Maria S.</p>
+                    <p class="testimonial-role">Ex-funcionária de empresa de logística</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Trabalhei 3 anos como PJ mas na verdade era CLT. Graças à Edson Porto Advocacia, consegui o reconhecimento do vínculo e recebi todos os direitos trabalhistas. Recomendo de olhos fechados!"</p>
+                    <p class="testimonial-author">João P.</p>
+                    <p class="testimonial-role">Consultor de vendas</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Sofria assédio moral diariamente no trabalho. O escritório me deu todo o suporte necessário e conseguimos uma indenização justa. Finalmente pude recuperar minha dignidade e estabilidade financeira."</p>
+                    <p class="testimonial-author">Ana L.</p>
+                    <p class="testimonial-role">Assistente administrativa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta-final">
+        <div class="container">
+            <h2>Não Espere Mais! Seus Direitos Não Podem Esperar!</h2>
+            <p>Cada dia que passa é um dia a menos para buscar a justiça que você merece. Fale conosco agora mesmo!</p>
+            <button class="btn btn-primary btn-large" onclick="openWhatsApp()">Fale com um Advogado Trabalhista Agora!</button>
+            <p class="cta-subtitle">Sua justiça está a um clique. Receba a orientação que você precisa!</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo-whatsapp.webp" alt="Edson Porto Advocacia" class="footer-logo-img">
+                        <div>
+                            <p class="footer-title">EDSON PORTO</p>
+                            <p class="footer-subtitle">ADVOCACIA</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">Especialistas em Direito do Trabalho</p>
+                    <p class="footer-tagline">Defendendo seus direitos com dedicação e expertise</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><a href="tel:+5551993615313">(51) 99361-5313</a></li>
+                        <li><a href="mailto:contato@edsonportobraz.com.br">contato@edsonportobraz.com.br</a></li>
+                        <li>Porto Alegre/RS</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Áreas de Atuação</h4>
+                    <ul>
+                        <li><a href="#areas">Ações Trabalhistas</a></li>
+                        <li><a href="#areas">Direitos do Trabalhador</a></li>
+                        <li><a href="#areas">Indenizações Trabalhistas</a></li>
+                        <li><a href="#areas">Rescisões Contratuais</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Edson Porto Braz Advocacia. Todos os direitos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Política de Privacidade</a>
+                    <span>•</span>
+                    <a href="#">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <button class="floating-whatsapp" onclick="openWhatsApp()" title="Fale conosco pelo WhatsApp">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.255.949l-.305.149-3.159-.829.843 3.075c-.531 1.466-.357 3.073.661 4.864 1.02 1.793 2.938 2.885 4.797 2.885a5.412 5.412 0 002.946-.798l.298-.149 3.075.766-.824-3.12c.521-1.331.873-2.932.873-4.667 0-5.059-4.121-9.169-9.191-9.169z"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

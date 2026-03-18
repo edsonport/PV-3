@@ -1,0 +1,29 @@
+{
+  "name": "edson-porto-trabalhista",
+  "version": "1.0.0",
+  "description": "Página especializada em Direito Trabalhista para Edson Porto Braz Advocacia",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": [
+    "direito trabalhista",
+    "advocacia",
+    "ação trabalhista",
+    "advogado",
+    "demissão injusta",
+    "horas extras"
+  ],
+  "author": "Edson Porto Braz Advocacia",
+  "license": "Proprietary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/edson-porto-trabalhista.git"
+  },
+  "homepage": "https://edsonportoadvocacia.com.br/trabalhista/",
+  "bugs": {
+    "url": "https://github.com/seu-usuario/edson-porto-trabalhista/issues",
+    "email": "contato@edsonportobraz.com.br"
+  }
+}
